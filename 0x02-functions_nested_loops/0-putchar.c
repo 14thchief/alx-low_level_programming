@@ -1,8 +1,9 @@
-#include stdio.h
+#include main.h
 /**
  *returnPrint function prints '_putchar'
  */
  
 char returnPrint(){
- 	return printf("_putchar\n")
+ 	printf("_putchar\n");
+	return 0;
 }
