@@ -4,5 +4,5 @@
  */
  
 char returnPrint(){
- 	return printf('_putchar')
+ 	return printf("_putchar\n")
 }
