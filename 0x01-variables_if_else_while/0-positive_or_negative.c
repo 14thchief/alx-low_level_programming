@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
+/*This function gets the size of different data types*/
 int main(void)
 {
 	int n;
