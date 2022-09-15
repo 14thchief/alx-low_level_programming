@@ -1,4 +1,4 @@
 void returnPrint(){
-        putchar("_putchar\n");
+        putchar(char "_putchar\n");
         return 0;
 }
