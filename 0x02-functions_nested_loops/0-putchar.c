@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*returnPrint function prints '_putchar'
+*main prints '_putchar'
 */
  
-int returnPrint(){
- 	putchar("_putchar\n");
+int main(){
+ 	returnPrint();
 	return 0;
 }
