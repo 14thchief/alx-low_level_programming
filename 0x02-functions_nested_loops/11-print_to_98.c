@@ -12,19 +12,19 @@ void print_to_98(int n)
 	{
 		while (n <= 98)
 		{
-			printf(n);
+			printf("%i, ", n);
 			n++;
 		}
 	}
 	else if (n == 98)
 	{
-		printf(98);
+		printf("%i, ", 98);
 	}
 	else
 	{
 		while (n >= 98)
 		{
-			printf(n);
+			printf("%i, ", n);
 			n--;
 		}
 	}
