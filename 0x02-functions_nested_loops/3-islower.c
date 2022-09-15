@@ -2,7 +2,8 @@
 
 /**
  * _islower - entry point
- * Returns: 1 if lowercase and 0 if not
+ * Return: 1 if lowercase and 0 if not
+ * @chr - ASCII of character
  */
 
 int _islower(int chr)
