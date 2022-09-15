@@ -5,6 +5,6 @@
 */
  
 int main(){
- 	returnPrint();
+	_putchar()
 	return 0;
 }
