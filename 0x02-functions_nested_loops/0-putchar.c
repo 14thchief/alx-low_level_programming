@@ -8,13 +8,14 @@
   *
   * Return:Always 0.
   */
- int main(void)
- {
-	char *c ="_putchar";
- 	while(*c)
-	 _putchar(*c)
-	 	c++;
- 	}
- 	_putchar('\n');
-	return (0);
- }
+
+int main(void){
+	char c[8]="_putchar";
+	int 1=0;
+	while(i<8){
+		_putchar(c[i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
+}
