@@ -9,6 +9,7 @@
 int print_last_digit(int n)
 {
 	int lastDigit = n < 10? n : n % 10;
-
+	
+	_putchar(lastDigit);
 	return (lastDigit);
 }
