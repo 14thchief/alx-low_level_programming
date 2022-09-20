@@ -2,6 +2,7 @@
  * _strcpy - function to copy pointed string
  * @dest: location address
  * @src: string to copy
+ * Return: char
  */
 
 char *_strcpy(char *dest, char *src)
