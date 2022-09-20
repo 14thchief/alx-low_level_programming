@@ -17,12 +17,13 @@ void rev_string(char *s)
 
 	while (i >= 0)
 	{
-		*str[i] = s[i];
+		str[i] = s[i];
 		i--;
 	}
 	
-	for (int j = 0; str[j]; j++)
+	while (str[j])
 	{
 		s[j] = str[j];
+		j++;
 	}
 }
