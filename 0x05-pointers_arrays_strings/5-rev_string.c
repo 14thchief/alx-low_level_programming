@@ -7,19 +7,19 @@ void rev_string(char *s)
 {
 	char *t = s;
 	char n[100000];
-	int c = 0;
+	int i = 0;
 
-	while (s[c])
+	while (*s[i])
 	{
-		n[c] = *s;
-		c++;
+		n[i] = *s[i];
+		i++;
 	}
 	c = 0;
 
 	while (s > t)
 	{
 		s--;
-		*s = n[c];
+		*s = n[i];
 		c++;
 	}
 }
