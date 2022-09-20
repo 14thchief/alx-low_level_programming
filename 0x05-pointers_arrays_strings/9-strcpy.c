@@ -1,7 +1,7 @@
 /**
  * _strcpy - function to copy pointed string
  * @dest: location address
- * @char: string to copy
+ * @src: string to copy
  */
 
 char *_strcpy(char *dest, char *src)
