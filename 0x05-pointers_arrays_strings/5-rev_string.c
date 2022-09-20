@@ -21,9 +21,8 @@ void rev_string(char *s)
 		i--;
 	}
 	
-	while (str[i])
+	for (int j = 0; str[j]; j++)
 	{
-		s[i] = str[i];
-		i++;
+		s[j] = str[j];
 	}
 }
