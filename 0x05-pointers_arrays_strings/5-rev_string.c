@@ -5,26 +5,21 @@
  */
 void rev_string(char *s)
 {
-	int i = 0;
-	char *str;
+	char *t = s;
+	char n[100000];
+	int c = 0;
 
-	while (s[i])
+	while (s[c])
 	{
-		i++;
+		n[c] = *s;
+		c++;
 	}
+	c = 0;
 
-	i--;
-
-	while (i >= 0)
+	while (s > t)
 	{
-		str[i] = s[i];
-		i--;
-	}
-	int j = 0;
-
-	while (str[j])
-	{
-		s[j] = str[j];
-		j++;
+		s--;
+		*s = n[c];
+		c++;
 	}
 }
