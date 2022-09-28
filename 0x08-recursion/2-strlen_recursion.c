@@ -1,5 +1,5 @@
 /**
- * _strlen_reursion - gets length of string
+ * _strlen_recursion - gets length of string
  * @s: string
  * Return: integer length of string
  */
