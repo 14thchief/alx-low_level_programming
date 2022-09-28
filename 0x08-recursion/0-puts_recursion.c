@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _puts_recursion - recursively p[rints a char to standard output
  * @s: string to print
